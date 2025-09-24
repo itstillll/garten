@@ -1,78 +1,43 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f8ff;
+  font-family: sans-serif;
+  background-color: #f0f2f5;
   margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: 40px auto;
   padding: 20px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-h1 {
-  text-align: center;
-  color: #2e7d32;
+h1, h2, h3 {
+  color: #333;
 }
 
-.add-tool {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.add-tool input {
-  padding: 8px;
-  border-radius: 6px;
+input[type="text"], input[type="number"] {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 4px;
   border: 1px solid #ccc;
-  flex: 1;
 }
 
-.add-tool button {
-  padding: 8px 16px;
-  background-color: #2e7d32;
-  color: white;
+button {
+  padding: 5px 10px;
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
   cursor: pointer;
 }
 
-.add-tool button:hover {
-  background-color: #1b5e20;
+button:hover {
+  background-color: #45a049;
 }
 
-.tool-list {
-  list-style-type: none;
+ul {
+  list-style: none;
   padding: 0;
 }
 
-.tool-item {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-  align-items: center;
-}
-
-.tool-item input {
-  padding: 6px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  flex: 1;
-}
-
-.delete-btn {
-  padding: 6px 12px;
-  background-color: #d32f2f;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.delete-btn:hover {
-  background-color: #9a0007;
+li {
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
